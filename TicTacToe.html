@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+	<script src="app.js" language="javascript"></script>
+	<link rel="stylesheet" type="text/css" href="linestyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+</head>
+<body>
+<!-- Heading 1: Tic Tac Toe -->
+
+<h1> Tic Tac Toe </h1> 
+
+<!-- 3x3 grid of buttons -->
+<div>
+	<button class="TicTacToeButton" id="Button1" type="button">&nbsp;</button>
+	<span class="verticalline">
+		<button class="TicTacToeButton" id="Button2" type="button">&nbsp;</button>
+	</span>
+	<span class="verticalline">
+		<button class="TicTacToeButton" id="Button3" type="button">&nbsp;</button>
+	</span>
+</div>
+<div class="horizontalline"></div>
+<div>
+	<button class="TicTacToeButton" id="Button4" type="button">&nbsp;</button>
+	<span class="verticalline">
+		<button class="TicTacToeButton" id="Button5" type="button">&nbsp;</button>
+	</span>
+	<span class="verticalline">
+		<button class="TicTacToeButton" id="Button6" type="button">&nbsp;</button>
+	</span>
+</div>
+<div class="horizontalline"></div>
+<div>
+	<button class="TicTacToeButton" id="Button7" type="button">&nbsp;</button>
+	<span class="verticalline">
+		<button class="TicTacToeButton" id="Button8" type="button">&nbsp;</button>
+	</span>
+	<span class="verticalline">
+		<button class="TicTacToeButton" id="Button9" type="button">&nbsp;</button>
+	</span>
+</div>
+
+<!-- Paragraph: Current player is X/O -->
+<p id="Message">Current player is <span id="CurrentPlayer"></span></p>
+<div>
+	<button id="Refresh">Restart Game</button>
+</div>
+</body>
+</html>

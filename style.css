@@ -1,0 +1,33 @@
+
+body {
+	background-color: beige;
+	text-align: center; 
+	font-family: 'Space Mono', monospace;
+	font-size: 32px;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.TicTacToeButton {
+	width: 100px;
+	height: 100px;
+	border-radius: 24px;
+	border: 2px solid black;
+	padding: 0;
+	margin: 18px;
+	font-size: 24px;
+	font-family: 'Space Mono', monospace;
+}
+
+div {
+	font-size: 0;
+}
+
+button {
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid black;
+}
